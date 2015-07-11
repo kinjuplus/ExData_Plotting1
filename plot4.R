@@ -1,3 +1,6 @@
+##set current termial Locale in case your default setting is not English, which will cause time scale looks different with sample file
+Sys.setlocale("LC_TIME", "English")
+
 ##load required library
 library(sqldf)
 library(dplyr)
